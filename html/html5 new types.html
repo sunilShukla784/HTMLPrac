@@ -1,14 +1,22 @@
 <html>
       <head>
            <title>html new inputs</title>
+           <script>
+            function myFunction() {
+                console.log('hello', document.getElementById('ma').value)
+            }
+            function myFunction1() {
+                console.log('hello', document.getElementById('ma1').value)
+            }
+        </script>
       </head>
 
       <body>
           <form>
-           <lable>Select color</lable> <input type="color" name=""/>
+           <lable>Select color</lable> <input id="ma1" type="color" onclick="myFunction1()" name=""/>
            <br><br>
 
-           <label>Range</label> <input type="range" name=""/>
+           <label>Range</label> <input id="ma" type="range" name="" onclick="myFunction()"/>
            <br><br>
 
            <label>Number</label> <input type="number" min="0" max="20" step="4" name=""/>
