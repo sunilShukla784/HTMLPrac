@@ -1,0 +1,36 @@
+.abc{
+    background-color: lavender;
+}
+
+/* h1{
+    color: blue;
+    font-size: 375%;
+    
+}
+
+p{
+    font-size: 200%;
+}
+
+.grid-container{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20%;
+    grid-template-columns: 500px 500px;
+    display: grid;
+    align-self: center;
+    column-gap: 50px;
+}   
+
+.grid-item1{
+    background-origin: padding-box;
+}
+
+.grid-item2{
+    background-color: white;
+}
+
+.card-footer{
+    align-content: center;
+} */
