@@ -8,18 +8,16 @@ body{
 }
 
 .fontColorName {
-    color:blue
-}
-
-p{
-    margin-left: 30%;
-    font-size: 150%;
-    text-align: left;
-}
-h1{
+    color:blue;
     text-align: left;
     margin-left: 30%;
     font-style: inherit;
+}
+
+.paraClass{
+    margin-left: 30%;
+    font-size: 150%;
+    text-align: left;
 }
 
 .container-fluid{
@@ -28,6 +26,15 @@ h1{
 }
 
 
+.box1 {
+    width: 20%;
+    height: 3%;
+    border: 1px solid rgb(15, 15, 15);
+  }
+
+  .moveRightGender{
+      margin-left: 35%;
+  }
 /* h1{
     color: blue;
     font-size: 375%;

@@ -42,7 +42,7 @@
         <div class="row colorBackground">
             <div class="col-md-6 mt-3 mb-3 text-center">
                 <h1 class="fontColorName text-capitalize">facebook</h1>
-                <p>Facebook helps you connect and share with the people in your life.</p>
+                <p class="paraClass">Facebook helps you connect and share with the people in your life.</p>
             </div>
             <div class="col-md-6 mt-3 mb-3 text-left">
               <div class="card" style="width: 70%;">
@@ -66,8 +66,12 @@
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel">Sign up</h5><br>
-                      <p>it's quick & easy</p>
+                      <div class="modal-title">
+                        <b>
+                          Sign up
+                        </b>
+                        <p>it's quick & easy</p>
+                      </div>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -82,7 +86,15 @@
 
                       <label>Date of birth</label> <input type="date"><br><br>
 
-                      <label>Gender</label> <input type="radio" name="Gender" id="male"><label for="male">male</label><input type="radio" name="Gender" id="female" ><label for="female">female</label><input type="radio" name="Gender" id="custom"><label for="custom">custom</label>
+                      <label>Gender</label>
+                      <div class="box1">
+                        <label for="male" class="ml-1">male</label>
+                        <span class="moveRightGender">
+                          <input type="radio" name="Gender" id="male">
+                        </span>
+                      </div>
+                       
+                       <input type="radio" name="Gender" id="female" ><label for="female">female</label><input type="radio" name="Gender" id="custom"><label for="custom">custom</label>
                      
 
                                                    
