@@ -1,6 +1,32 @@
-.abc{
+.colorBackground{
+    background-color: lavender;
+    
+}
+
+body{
     background-color: lavender;
 }
+
+.fontColorName {
+    color:blue
+}
+
+p{
+    margin-left: 30%;
+    font-size: 150%;
+    text-align: left;
+}
+h1{
+    text-align: left;
+    margin-left: 30%;
+    font-style: inherit;
+}
+
+.container-fluid{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
 
 /* h1{
     color: blue;
