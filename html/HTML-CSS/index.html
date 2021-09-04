@@ -38,25 +38,32 @@
       </div>
       </div> -->
   
-      <div class="container-fluid">
+      <div class="container-fluid mainContainer">
         <div class="row">
-            <div class="col-md-6 mb-3 text-center">
+            <div class="col-md-6 mb-3 text-center mainContent1">
                 <h1 class="fontColorName text-capitalize">facebook</h1>
                 <p class="paraclass" style="font-size: 20px; text-align: left; margin-left: 30%;">Facebook helps you connect and share with the people in your life.</p>
             </div>
-            <div class="col-md-6 mb-3 text-left">
+            <div class="col-md-6 mb-3 text-left mainContent">
               <div class="card" style="width: 70%;">
                 <div class="card-body">
                   
-                  <input type="text" name="" placeholder="email or phone number" size="52px" >
+                  <!-- <input type="text" name="" placeholder="email or phone number" size="52px" >
                   <br><br>
-                  <input type="password" name="password" placeholder="enter your password" size="52%">
-                  <br><br> 
-                  <button type="button" class="btn btn-primary" style="width: 100%;">log in</button>
-                  <br><br>
-                  <article style="text-align: center;">
-                      <a href="forgotten.html" class="password">forgotten password?</a>
-                  </article>
+                  <input type="password" name="password" placeholder="enter your password" size="52%"> -->
+                  <form>
+                    <div class="form-group">
+                      <input type="email" class="form-control"  aria-describedby="emailHelp" placeholder="email or phone number">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control"  placeholder="enter your password">
+                    </div>
+                    <button type="button" class="btn btn-primary" style="width: 100%;">log in</button>
+                    <article style="text-align: center;">
+                        <a href="forgotten.html" class="password">forgotten password?</a>
+                    </article>
+                  </form>
+
                     
                   
                   <hr>
@@ -71,8 +78,13 @@
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel"></b>Sign up</b></h5><br>
-                       <p >it's quick & easy</p> 
+                      <!-- <h5 class="modal-title" id="exampleModalLabel"></b>Sign up</b></h5><br>
+                       <p >it's quick & easy</p>  -->
+
+                       <div class="modal-title">
+                         <span style="font-weight:bold">Sign UP</span>
+                         <p style="margin-top:'2%'">it's quick & easy</p>
+                       </div>
                         
                       
                     
@@ -95,34 +107,37 @@
                     
                       <label>Gender</label> <br>
                       <div class="form-check-inline box1">
-                        <input type="radio" name="Gender" id="male"><label for="male">male</label>
+                        <label for="male" class="mt-1">Male</label>
+                        <input type="radio" name="Gender" id="male" style="margin-left: 50%;">
                       </div>
 
                       <div class="form-check-inline box2">
-                      <input type="radio" name="Gender" id="female" ><label for="female">female</label>
+                        <label for="female" class="mt-1">Female</label>
+                        <input type="radio" name="Gender" id="female" style="margin-left: 35%;">
                       </div>
 
                       <div class="form-check-inline box3">
-                        <input type="radio" name="Gender" id="custom"><label for="custom">custom</label>
+                        <label for="custom" class="mt-1">Custom</label>
+                        <input type="radio" name="Gender" id="custom" style="margin-left: 30%;">
                       </div> 
                     </div>
                     <div class="modal-footer form-check">
-                      <P>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</P>
-                      <button type="button modal-button" class="btn btn-success text-center" data-dismiss="modal">Sign up</button>
-                 
+                      <p>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+                      <button type="button" style="margin-right: 45%" class="btn btn-success text-center">Sign up</button>
                     </div>
                   </div>
                 </div>
               </div>
 
             </div>
+          </div>
+          <div class="container-fluid">
             <div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-5 mt-5 mb-5">footer </div>
               <div class="col-md-5"></div>
-              
             </div>
-      </div>
+          </div>
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

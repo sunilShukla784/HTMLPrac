@@ -20,12 +20,19 @@
     
 }
 
-.container-fluid{
-    margin-top: 10%;
-    margin-bottom: 5%;
+.mainContainer{
+    /* margin-top: 10%;
+    margin-bottom: 5%; */
     background-color: lavender;
 }
 
+.mainContent1{
+    margin-top: 18%;
+}
+
+.mainContent{
+    margin-top: 15%;
+}
 
 .box1 {
     width: 30%;
