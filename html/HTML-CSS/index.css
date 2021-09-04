@@ -3,25 +3,21 @@
     
 }
 
-body{
-    background-color: lavender;
-}
+
 
 .fontColorName {
     color:blue;
     text-align: left;
     margin-left: 30%;
     font-style: inherit;
+   
 }
 
-<<<<<<< HEAD
-.paragraph{
-=======
-.paraClass{
->>>>>>> 40b3deaacf99f78ee70f7b5f5c2392bd80f5b766
-    margin-left: 30%;
-    font-size: 150%;
+ .paraClass{
+    font-size: 20%;
     text-align: left;
+    
+    
 }
 
 .container-fluid{

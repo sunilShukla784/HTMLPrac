@@ -42,35 +42,39 @@
         <div class="row colorBackground">
             <div class="col-md-6 mt-3 mb-3 text-center">
                 <h1 class="fontColorName text-capitalize">facebook</h1>
-                <p>Facebook helps you connect and share with the people in your life.</p>
+                <p class="paraclass" style="font-size: 20px; text-align: left; margin-left: 30%;">Facebook helps you connect and share with the people in your life.</p>
             </div>
             <div class="col-md-6 mt-3 mb-3 text-left">
               <div class="card" style="width: 70%;">
                 <div class="card-body">
-                  <h5 class="card-title"></h5>
-                  <input type="text" name="" placeholder="email or phone number" size="50px" >
-                  <br><br>
-
-                  <input type="password" name="password" placeholder="enter your password" size="50px">
-                  <br><br>
-                  <div class="button">
-                    <a href="#" class="btn btn-primary">Log in</a>
-                  </div>
                   
+                  <input type="text" name="" placeholder="email or phone number" size="52px" >
                   <br><br>
-                   <a href="forgotten.html" class="">Forgotten password?</a>
+                  <input type="password" name="password" placeholder="enter your password" size="52%">
+                  <br><br> 
+                  <button type="button" class="btn btn-primary" style="width: 100%;">log in</button>
+                  <br><br>
+                  <article style="text-align: center;">
+                      <a href="forgotten.html" class="password">forgotten password?</a>
+                  </article>
+                    
+                  
                   <hr>
-                  <button type="button text-capitalize" class="btn-success" data-toggle="modal" data-target="#exampleModal">
+                  <button type="button text-capitalize" class="btn-success" data-toggle="modal" data-target="#exampleModal" style="width: 100%;">
                     create new account
                   </button>
                </div>
+              </div>
+            </div>
           
                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">Sign up</h5><br>
-                      <p>it's quick & easy</p>
+                      <p>
+                        <b>it's quick & easy</b>
+                      </p>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
@@ -83,15 +87,13 @@
                       <input type="text" name="email " placeholder="email or phone number"><br><br>
                       <input type="password" name="password" placeholder="new password"><br><br>
 
-                      <label>Date of birth</label> <input type="date"><br><br>
+                      <label>Date of birth</label> <input list="date">
+                                                     <datalist id="Date">
+
+                                                     </datalist><br><br>
 
                       <label>Gender</label> <input type="radio" name="Gender" id="male"><label for="male">male</label><input type="radio" name="Gender" id="female" ><label for="female">female</label><input type="radio" name="Gender" id="custom"><label for="custom">custom</label>
-                     
-
-                                                   
-
- 
-                                                   
+                             
                     </div>
                     <div class="modal-footer form-check">
                       <P>By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</P>
@@ -102,24 +104,15 @@
                 </div>
               </div>
 
-                  
-
-                  
-                  
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-          
         <div class="row">
-          <div class="col-md-12 mt-5" >
-               footer 
-          </div>
+          <div class="col-md-2"></div>
+          <div class="col-md-5 mt-5 mb-5">footer </div>
+          <div class="col-md-5"></div>
+               
+          
           
         </div>
+      </div>
       </div>
       
 
