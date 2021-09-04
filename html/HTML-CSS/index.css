@@ -28,14 +28,35 @@
 
 
 .box1 {
-    width: 20%;
-    height: 3%;
+    width: 30%;
+    height: 4%;
     border: 1px solid rgb(15, 15, 15);
+    padding-left: 30px;
+
   }
 
-  .moveRightGender{
-      margin-left: 35%;
+  .box2 {
+    width: 30%;
+    height: 4%;
+    border: 1px solid rgb(15, 15, 15);
+    padding-left: 30px;
+
   }
+
+  .box3 {
+    width: 30%;
+    height: 4%;
+    border: 1px solid rgb(15, 15, 15);
+    padding-left: 30px;
+    text-align: center;
+    
+  }
+
+  .moveleftGender{
+      margin-left: 35%;
+
+  }
+
 /* h1{
     color: blue;
     font-size: 375%;
