@@ -12,16 +12,21 @@
 
 <body>
   <div class="row">
-    <div class="col-md-2 mt-1 ">
+    <div class="col-md-2 mb-1 text-center ">
       <h1 class="text-capitalize">
         <font color="blue" style="font-family: inherit;">facebook</font>
       </h1>
     </div>
+    
     <div class="col-md-4 mt-3"></div>
     <div class="col-md-6 mt-3">
-      <input type="text" name="email" placeholder="email or phone number">
-      <input type="password" name="password" placeholder="enter your password">
-      <button type="button" class="btn btn-primary">log in</button> forgotten password?
+    <form class="form-inline">
+      <input type="text" name="email" placeholder="email or phone number" class="form-control mr-sm-2">
+      <input type="password" name="password" placeholder="enter your password" class="form-control mr-sm-2">
+   <button type="button" class="btn btn-primary mr-sm-2">log in</button> 
+      <a href="forgotten.html" name="password">forgotten password?</a>
+    </form>
+  
     </div>
   </div>
 
@@ -31,25 +36,26 @@
     <div class="col-md-4 mt-5 mb-5">
       <div class="card  text-center">
         <div class="card-body text-left">
+          <form class="form-inline">
+         
           <h5 class="card-title"></h5>
           <h6 class="text-capitalize">find your account</h6>
           <hr>
 
           <p>Please enter your email address or mobile number to search for your account</p>
 
-          <input type="password" name="password" placeholder="enter your password" size="50">
+          <input type="password" name="password" placeholder="enter your password" size="50" class="form-control mb-3 mr-sm-2">
           <hr>
-          
+          <span class="button" style="margin-left: 62%;">
             <button type="button" class="btn btn-secondary">cancel</button>
           <button type="button" class="btn btn-primary">Search</button>
-        
-
+        </span>
+         </form>
 
         </div>
       </div>
     </div>
 
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
