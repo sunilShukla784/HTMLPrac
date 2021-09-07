@@ -1,5 +1,5 @@
 .colorBackground{
-    background-color: lavender;
+    background-color: #f0f2f5;
     
 }
 
@@ -13,29 +13,31 @@
    
 }
 
- .paraClass{
-    font-size: 20%;
-    text-align: left;
-    
-    
-}
 
 .belowcard{
-    background-color: lavender;
+    background-color:#f0f2f5;
+}
+
+.card2{
+    background-color: #f0f2f5;
 }
 
 .mainContainer{
     /* margin-top: 10%;
     margin-bottom: 5%; */
-    background-color: lavender;
+    background-color: #f0f2f5;
+    padding-bottom: 200px;
+    padding-top: 75px;
 }
 
 .mainContent1{
-    margin-top: 18%;
+    margin-top: 12%;
+    
+    
 }
 
 .mainContent{
-    margin-top: 15%;
+    margin-top: 9%;
 }
 
 .box1 {
@@ -69,7 +71,7 @@
   }
 
 /* h1{
-    color: blue;
+    color: dogerblue;
     font-size: 375%;
     
 }
