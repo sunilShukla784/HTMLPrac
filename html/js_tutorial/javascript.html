@@ -4,12 +4,32 @@
         <meta charset="UTF-8">
         <meta name="viewreport" content="width=device-width, initial-scale=1.0">
         <title></title>
+
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            .container{
+                border: 2px solid red;
+                margin: 3px 0px;
+                background: orangered;
+                padding: 5px;
+            }
+            .bg-primary{
+                background-color: palegreen;
+            }
+            .text-success{
+                color: palevioletred;
+            }
+        </style>
     </head>
 
     <body>
         <h1>welcome to javascript tutorial</h1>
-        <div class="container">
+        <div id="firstcontainer" class="container">
             <button id="click">click me</button>
+            <p>I want to become a good web developer</p>
         </div>
 
         <div class="container">
@@ -137,7 +157,7 @@
      //loops
      //for loop
 
-     var arr1 = [1,2,3,4,5,6,7]
+    /* var arr1 = [1,2,3,4,5,6,7]
      //console.log(arr1);
 
      for(var i= 0;i<arr1.length;i++){
@@ -146,9 +166,111 @@
 
      arr1.forEach(function (element){
          console.log(element);
-     })
+     })*/
 
-      
+     //dates in js
+    //  mydate = new Date();
+    //  console.log(mydate.getTime());
+    //  console.log(mydate.getFullYear());
+    //  console.log(mydate.getDay());
+    //  console.log(mydate.getMinutes());
+
+   //dom manipulation
+  let xyz = document.getElementById('click');
+ // console.log(xyz);
+
+  let xy = document.getElementsByClassName("container");
+  //console.log(xy);
+
+  xy[0].classList.add('bg-primary');
+  xy[1].classList.add('bg-danger');
+  xy[0].classList.remove('text-success');
+
+//   console.log(xyz.innertext);
+//   console.log(xyz.innerhtml);
+
+// let cd = document.getElementsByTagName("div");
+// console.log(cd);
+// createdElement = document.createElement('p');
+// createdElement.innerText = 'this is a para';
+// cd[0].appendChild(createdElement)
+// createdElement2 = document.createElement2('b');
+// createdElement2.innerText = 'this is a bold';
+// cd[0].replaceChild(createdElement2, createdElement);
+// //removeChild(Element)--- remove an Element
+
+/*document title
+  document url
+  document.scripts
+  document.links
+  document.form
+  document.domain*/
+
+ // selecting using queries
+//  let jiya = document.querySelector('.container');
+//  console.log(jiya);
+
+//  let jiya1 = document.querySelectorAll('.container');
+//  console.log(jiya1);
+
+ //events in javascript
+//   firstcontainer.addEventListener('click',function(){
+//       console.log('click hua')
+//   })
+
+//  firstcontainer.addEventListener('mouseover',function(){
+//      console.log('mouse on conatiner')
+//  })
+
+//  firstcontainer.addEventListener('mouseout',function(){
+//      console.log('mouse out conatiner')
+//  })
+
+//  firstcontainer.addEventListener('mouseup',function(){
+//      console.log('mouse up when clicked on conatiner')
+//  })
+
+//  firstcontainer.addEventListener('mousedown',function(){
+//      console.log('mouse down when clicked on conatiner')
+//  })
+
+//arrow function
+function summ(a,b){
+    return a+b;
+}
+
+//  summ(a,b) => {
+//     return a+b;
+// }
+//set timeout and set interval
+logkaro = ()=>{
+  //  console.log('i am your log')
+}
+  
+//setTimeout(logkaro,2000);
+clr = setInterval(logkaro,2000);
+
+//clr is use to stop interval and timeout,used clr in console.
+
+//local storage in javascript
+//localstorage.setItem('name','sunil');
+//localstorage
+//localstorage.getItem('name')
+//localstorage.removeItem('name')
+//localStorage.clear();
+
+//JSON(it use to exhange the data)(javascript object notation)
+//json standard required only double cots
+// obj = {name: 'harry', length: 1}
+// jso = JSON.stringify(obj);
+// console.log(typeof jso);
+// console.log(jso);
+// parsed = JSON.parse(`{"name":"harry","length":1}`);
+// console.log(parsed);
+
+//template literal-backticks
+g = 34;
+console.log('this is my ${g}');
     </script> 
 
     </body>
