@@ -70,30 +70,47 @@ for(let - in obj)
 }
 console.log('done');*/
 
-const dig = (obj, target) =>
-  target in obj
-    ? obj[target]
-    : Object.values(obj).reduce((acc, val) => {
-        if (acc !== undefined) return acc;
-        if (typeof val === 'object') return dig(val, target);
-      }, undefined);
-const data = {
-  level1: {
-    level2: {
-      level3: 'some data',
-      ab: {
-          cd: {
-              ef: {
-                  ff: 'lets see'
-              }
-          }
-      }
-    }
+// const dig = (obj, target) =>
+//   target in obj
+//     ? obj[target]
+//     : Object.values(obj).reduce((acc, val) => {
+//         if (acc !== undefined) return acc;
+//         if (typeof val === 'object') return dig(val, target);
+//       }, undefined);
+// const data = {
+//   level1: {
+//     level2: {
+//       level3: 'some data',
+//       ab: {
+//           cd: {
+//               ef: {
+//                   ff: 'lets see'
+//               }
+//           }
+//       }
+//     }
+//   }
+// };
+// console.log(dig(data, 'level1')) // 'some data'
+// console.log(dig(data, 'level2')) // 'some data'
+// console.log(dig(data, 'ff')) // 'some data'
+
+//classes in javascript
+//class expression
+
+//unnamed
+let Rectangle = class {
+  constructor(height,width){
+    this.height = height;
+    this.width = width;
   }
 };
-console.log(dig(data, 'level1')) // 'some data'
-console.log(dig(data, 'level2')) // 'some data'
-console.log(dig(data, 'ff')) // 'some data'
+
+console.log(Rectangle.name);
+console.log(Rectangle.height, new Rectangle());
+
+
+
 
 
 
