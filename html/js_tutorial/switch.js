@@ -14,7 +14,7 @@ var valu2 = document.getElementById('sampleID')
 
 let obj = {
     type: type,
-    num1: value1,
+    num1: value1,   
     num2: value2
 }
 testSwitch(obj)
